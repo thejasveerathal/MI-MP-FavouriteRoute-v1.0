@@ -14,8 +14,31 @@
   <name>MP-FavouriteRoute-CAR</name>
   <description>MP-FavouriteRoute-CAR</description>
   <properties>
+    <com.rcrc.wso2.mi.mp.metadata_._MP-FavouriteRoute_swagger>capp/EnterpriseServiceBus</com.rcrc.wso2.mi.mp.metadata_._MP-FavouriteRoute_swagger>
+    <com.rcrc.wso2.mi.mp.metadata_._MP-FavouriteRoute_metadata>capp/EnterpriseServiceBus</com.rcrc.wso2.mi.mp.metadata_._MP-FavouriteRoute_metadata>
+    <com.rcrc.wso2.mi.mp.api_._MP-FavouriteRoute>capp/EnterpriseServiceBus</com.rcrc.wso2.mi.mp.api_._MP-FavouriteRoute>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
   </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.rcrc.wso2.mi.mp.metadata</groupId>
+      <artifactId>MP-FavouriteRoute_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.rcrc.wso2.mi.mp.metadata</groupId>
+      <artifactId>MP-FavouriteRoute_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.rcrc.wso2.mi.mp.api</groupId>
+      <artifactId>MP-FavouriteRoute</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <releases>

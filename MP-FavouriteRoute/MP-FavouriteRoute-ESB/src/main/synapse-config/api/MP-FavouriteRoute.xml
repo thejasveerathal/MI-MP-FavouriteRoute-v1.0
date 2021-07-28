@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/favouriteroute" name="MP-FavouriteRoute" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/get">
+        <inSequence>
+            <log level="custom">
+                <property name="Logging" value="Inside Favourite route"/>
+            </log>
+            <payloadFactory media-type="xml">
+                <format>
+                    <inline xmlns="">
+                        <message>Hello World 1.0.!!</message>
+                    </inline>
+                </format>
+                <args/>
+            </payloadFactory>
+            <property name="messageType" scope="axis2" type="STRING" value="application/xml"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

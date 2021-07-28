@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: MP-FavouriteRoute
+  description: API Definition of MP-FavouriteRoute
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/favouriteroute
+paths:
+  /get:
+    get:
+      responses:
+        default:
+          description: Default response

@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><artifacts/>
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="MP-FavouriteRoute" groupId="com.rcrc.wso2.mi.mp.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/MP-FavouriteRoute.xml</file>
+    </artifact>
+    <artifact name="MP-FavouriteRoute_swagger" groupId="com.rcrc.wso2.mi.mp.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/MP-FavouriteRoute_swagger.yaml</file>
+    </artifact>
+    <artifact name="MP-FavouriteRoute_metadata" groupId="com.rcrc.wso2.mi.mp.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/MP-FavouriteRoute_metadata.yaml</file>
+    </artifact>
+</artifacts>
