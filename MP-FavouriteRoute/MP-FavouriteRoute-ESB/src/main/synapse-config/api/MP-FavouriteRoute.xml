@@ -9,6 +9,7 @@
                 <format>
                     <inline xmlns="">
                         <message>Hello World 1.0.!!</message>
+                        <message>CI/CD Flow Almost Completed!!</message>
                     </inline>
                 </format>
                 <args/>
