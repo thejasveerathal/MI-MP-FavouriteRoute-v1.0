@@ -8,7 +8,7 @@
             <payloadFactory media-type="xml">
                 <format>
                     <inline xmlns="">
-                        <message>Hello World 2.0...!</message>
+                        <message>Hello World 3.0...!</message>
                         <message>CI/CD Flow Demo!</message>
                     </inline>
                 </format>
